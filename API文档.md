@@ -23,7 +23,7 @@
 ```json
 {
     "code": "int",
-    "data": "Result()", // 返回类型皆指 Result 中的 data(object) 是什么子类
+    "data": "Result()", /* 返回类型皆指 Result 中的 data(object) 是什么子类 */
     "message": "string"
 }
 ```
@@ -1411,7 +1411,7 @@
 
 以二进制形式返回, 前端转化为文件内容进行下载
 
-### 【查询历史练习分数/排名】
+### 查询历史练习分数/排名
 
 > 请求路径：`check/history`
 >
@@ -1429,7 +1429,9 @@
 
 **响应样例**
 
-返回两个列表 `List<List<Integer>, List<Integer>>` 排名 - 成绩
+对于没有批改的练习，不进行返回
+
+返回三个个列表 `List<Exercise>, List<List<Integer>, List<Integer>>` 练习 - 排名 - 成绩
 
 ### 【生成并下载练习报告】
 
