@@ -1431,7 +1431,7 @@
 
 对于没有批改的练习，不进行返回
 
-返回三个个列表 `List<Exercise>, List<List<Integer>, List<Integer>>` 练习 - 排名 - 成绩
+返回三个个列表 `List<List<Exercise>, List<Integer>, List<Integer>>` 练习 - 排名 - 成绩
 
 ### 【生成并下载练习报告】
 
