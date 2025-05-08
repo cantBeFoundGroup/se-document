@@ -23,7 +23,7 @@
 ```json
 {
     "code": "int",
-    "data": "Result()", /* 返回类型皆指 Result 中的 data(object) 是什么子类 */
+    "data": "Result()",
     "message": "string"
 }
 ```
@@ -1433,7 +1433,7 @@
 
 返回三个个列表 `List<List<Exercise>, List<Integer>, List<Integer>>` 练习 - 排名 - 成绩
 
-### 【生成并下载练习报告】
+### 导出练习报告
 
 > 请求路径：`/exer/stuReport`
 >
