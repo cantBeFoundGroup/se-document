@@ -21,7 +21,7 @@
 **返回类型**
 
 ```json
-Result {
+"Result" : {
     "success": "boolean",
     "errorMsg": "string",
     "data" : "object",
