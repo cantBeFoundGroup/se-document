@@ -21,18 +21,12 @@
 **返回类型**
 
 ```json
-{
-    "code": "int",
-    "data": "Result()",
-    "message": "string"
+Result {
+    "success": "boolean",
+    "errorMsg": "string",
+    "data" : "object",
+    "total": "int"
 }
-```
-
-**状态码**
-
-```json
-"200": "成功"
-"201": "失败"
 ```
 
 **请求类型和返回类型传递**
