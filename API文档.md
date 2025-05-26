@@ -969,7 +969,7 @@
 | is_public   | 是否公开 | boolean | 是       | 是否加入题目题库                         |
 | creator_id  | 创建者   | int     | 是       | 老师/助教                                |
 | description | 题目描述 | string  | 是       |                                          |
-| content     | 题目选项 | json    | 否       | 对于选择题需要加入一个json类型的选项映射 |
+| str_content     | 题目选项 | json    | 否       | 对于选择题需要加入一个json类型的选项映射 |
 | answer      | 答案     | string  | 是       |                                          |
 | analysis    | 解析     | string  | 否       |                                          |
 
