@@ -929,7 +929,7 @@
 
 通过查询其 `res_code` ,进而查询所有的历史版本，获取的版本里边不包含公共的（因为公共的一定也是私有的）, 按时间顺序排序并返回 `List<Resource>`
 
-## 模块四【3 ==唐皓涵==】
+## 模块四【4 ==唐皓涵==】
 
 ### 查看对应题目
 
@@ -1410,7 +1410,7 @@
 
 **响应样例**
 
-返回题目列表、得分列表、反馈信息列表，是否批改列表、学生答案列表，`[List<Problem>, List<Integer>, List<String>, List<Boolean>, List<String>]`
+返回题目列表、得分列表、反馈信息列表，是否批改列表、学生答案列表，`[List<Problem>, List<Integer>, List<String>, List<Boolean>, List<String>, List<Integer>]`
 
 后端需要对于选填题进行**自动化批阅**, 并更新得分列表
 
