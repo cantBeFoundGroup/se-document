@@ -64,7 +64,8 @@
 | 参数说明   | 说明           | 类型   | 是否必须 |      备注            |
 | ---------- | -------------- | ------ | -------- | ---------------- |
 | username   | 账号（学工号） | string | 是       |                  |
-| password   | 密码           | string | 是       |                  |
+| password   | 密码           | string | 是       |  |
+| ConfirmPassword | 确认密码 | String | 是 | 跟密码一致 |
 | name       | 姓名           | string | 否       | 否，则账号做名字 |
 | mail       | 邮箱           | string | 是       | 用于邮箱验证     |
 | birthday   | 生日           | date   | 否       | 默认随机2000-1-1 |
